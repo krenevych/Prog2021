@@ -34,7 +34,7 @@
       <recent name="$PROJECT_DIR$/L01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.t05">
+  <component name="RunManager" selected="Python.t02 (1)">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Prog2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,7 +56,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Prog2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mat22/L01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stat56/L03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mat22/L01/t01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stat56/L03/t01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t02 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Prog2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mat22/L01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stat56/L03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mat22/L01/t02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stat56/L03/t02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t02 (1)" />
+        <item itemvalue="Python.t01 (1)" />
         <item itemvalue="Python.t05" />
         <item itemvalue="Python.t04" />
         <item itemvalue="Python.t03" />
-        <item itemvalue="Python.t02" />
-        <item itemvalue="Python.t01" />
       </list>
     </recent_temporary>
   </component>
@@ -183,52 +183,52 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="301" key="GridCell.Tab.0.bottom" timestamp="1631603134095">
+    <state width="1419" height="253" key="GridCell.Tab.0.bottom" timestamp="1631772816691">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="301" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631603134095" />
+    <state width="1419" height="253" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631772816691" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.25.1280.701@0.25.1280.701" timestamp="1630595847890" />
     <state width="1259" height="203" key="GridCell.Tab.0.bottom/0.25.1280.703@0.25.1280.703" timestamp="1630657973104" />
-    <state width="1419" height="301" key="GridCell.Tab.0.center" timestamp="1631603134093">
+    <state width="1419" height="253" key="GridCell.Tab.0.center" timestamp="1631772816689">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="301" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1631603134093" />
+    <state width="1419" height="253" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1631772816689" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.25.1280.701@0.25.1280.701" timestamp="1630595847888" />
     <state width="1259" height="203" key="GridCell.Tab.0.center/0.25.1280.703@0.25.1280.703" timestamp="1630657973103" />
-    <state width="1419" height="301" key="GridCell.Tab.0.left" timestamp="1631603134092">
+    <state width="1419" height="253" key="GridCell.Tab.0.left" timestamp="1631772816688">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="301" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1631603134092" />
+    <state width="1419" height="253" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1631772816688" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.25.1280.701@0.25.1280.701" timestamp="1630595847886" />
     <state width="1259" height="203" key="GridCell.Tab.0.left/0.25.1280.703@0.25.1280.703" timestamp="1630657973102" />
-    <state width="1419" height="301" key="GridCell.Tab.0.right" timestamp="1631603134094">
+    <state width="1419" height="253" key="GridCell.Tab.0.right" timestamp="1631772816690">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="301" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1631603134094" />
+    <state width="1419" height="253" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1631772816690" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.25.1280.701@0.25.1280.701" timestamp="1630595847889" />
     <state width="1259" height="203" key="GridCell.Tab.0.right/0.25.1280.703@0.25.1280.703" timestamp="1630657973104" />
-    <state width="1419" height="234" key="GridCell.Tab.1.bottom" timestamp="1631603120160">
+    <state width="1419" height="234" key="GridCell.Tab.1.bottom" timestamp="1631772807022">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="234" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631603120160" />
+    <state width="1419" height="234" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631772807022" />
     <state width="1419" height="203" key="GridCell.Tab.1.bottom/0.25.1280.701@0.25.1280.701" timestamp="1630595847894" />
     <state width="1259" height="203" key="GridCell.Tab.1.bottom/0.25.1280.703@0.25.1280.703" timestamp="1630657973107" />
-    <state width="1419" height="234" key="GridCell.Tab.1.center" timestamp="1631603120158">
+    <state width="1419" height="234" key="GridCell.Tab.1.center" timestamp="1631772807020">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="234" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1631603120158" />
+    <state width="1419" height="234" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1631772807020" />
     <state width="1419" height="203" key="GridCell.Tab.1.center/0.25.1280.701@0.25.1280.701" timestamp="1630595847892" />
     <state width="1259" height="203" key="GridCell.Tab.1.center/0.25.1280.703@0.25.1280.703" timestamp="1630657973106" />
-    <state width="1419" height="234" key="GridCell.Tab.1.left" timestamp="1631603120157">
+    <state width="1419" height="234" key="GridCell.Tab.1.left" timestamp="1631772807019">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="234" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1631603120157" />
+    <state width="1419" height="234" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1631772807019" />
     <state width="1419" height="203" key="GridCell.Tab.1.left/0.25.1280.701@0.25.1280.701" timestamp="1630595847891" />
     <state width="1259" height="203" key="GridCell.Tab.1.left/0.25.1280.703@0.25.1280.703" timestamp="1630657973105" />
-    <state width="1419" height="234" key="GridCell.Tab.1.right" timestamp="1631603120159">
+    <state width="1419" height="234" key="GridCell.Tab.1.right" timestamp="1631772807021">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="234" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1631603120159" />
+    <state width="1419" height="234" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1631772807021" />
     <state width="1419" height="203" key="GridCell.Tab.1.right/0.25.1280.701@0.25.1280.701" timestamp="1630595847893" />
     <state width="1259" height="203" key="GridCell.Tab.1.right/0.25.1280.703@0.25.1280.703" timestamp="1630657973106" />
   </component>
@@ -315,12 +315,16 @@
           <line>7</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Stat56/L03/t01.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="f + l" language="Python" />
-        <watch expression="x &lt; 0 and y &lt; 0" language="Python" />
+        <watch expression="i &lt; n" language="Python" />
       </configuration>
     </watches-manager>
   </component>
