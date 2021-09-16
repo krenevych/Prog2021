@@ -34,7 +34,7 @@
       <recent name="$PROJECT_DIR$/L01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.t04">
+  <component name="RunManager" selected="Python.t05">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Prog2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Prog2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stat56/L03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stat12/L03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stat56/L03/t06.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stat12/L03/t05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t05" />
         <item itemvalue="Python.t04" />
         <item itemvalue="Python.t03" />
         <item itemvalue="Python.t02" />
         <item itemvalue="Python.t01" />
-        <item itemvalue="Python.t06" />
       </list>
     </recent_temporary>
   </component>
@@ -183,28 +183,28 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="268" key="GridCell.Tab.0.bottom" timestamp="1631781674978">
+    <state width="1419" height="268" key="GridCell.Tab.0.bottom" timestamp="1631782130655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="268" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631781674978" />
+    <state width="1419" height="268" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631782130655" />
     <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.25.1280.701@0.25.1280.701" timestamp="1630595847890" />
     <state width="1259" height="203" key="GridCell.Tab.0.bottom/0.25.1280.703@0.25.1280.703" timestamp="1630657973104" />
-    <state width="1419" height="268" key="GridCell.Tab.0.center" timestamp="1631781674976">
+    <state width="1419" height="268" key="GridCell.Tab.0.center" timestamp="1631782130653">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="268" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1631781674976" />
+    <state width="1419" height="268" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1631782130653" />
     <state width="1419" height="203" key="GridCell.Tab.0.center/0.25.1280.701@0.25.1280.701" timestamp="1630595847888" />
     <state width="1259" height="203" key="GridCell.Tab.0.center/0.25.1280.703@0.25.1280.703" timestamp="1630657973103" />
-    <state width="1419" height="268" key="GridCell.Tab.0.left" timestamp="1631781674975">
+    <state width="1419" height="268" key="GridCell.Tab.0.left" timestamp="1631782130652">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="268" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1631781674975" />
+    <state width="1419" height="268" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1631782130652" />
     <state width="1419" height="203" key="GridCell.Tab.0.left/0.25.1280.701@0.25.1280.701" timestamp="1630595847886" />
     <state width="1259" height="203" key="GridCell.Tab.0.left/0.25.1280.703@0.25.1280.703" timestamp="1630657973102" />
-    <state width="1419" height="268" key="GridCell.Tab.0.right" timestamp="1631781674977">
+    <state width="1419" height="268" key="GridCell.Tab.0.right" timestamp="1631782130654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="268" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1631781674977" />
+    <state width="1419" height="268" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1631782130654" />
     <state width="1419" height="203" key="GridCell.Tab.0.right/0.25.1280.701@0.25.1280.701" timestamp="1630595847889" />
     <state width="1259" height="203" key="GridCell.Tab.0.right/0.25.1280.703@0.25.1280.703" timestamp="1630657973104" />
     <state width="1419" height="282" key="GridCell.Tab.1.bottom" timestamp="1631781323546">
