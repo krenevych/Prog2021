@@ -6,6 +6,7 @@ else:
     check = True
 
     # 15: 3 5
+    # 21: 3 7
     for i in range(3, int(n**0.5) + 1, 2):
         if n % i == 0:
             print(i)
