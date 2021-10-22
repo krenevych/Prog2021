@@ -5,10 +5,21 @@
 # прості числа 13 11 13
 
 def isFullSquare(k):
-    pass
+    # 35  int(35**0.5)**2 = 5**2 = 25
+    # 36  int(36**0.5)**2 = 6**2 = 36
+    k1 = int(k ** 0.5)
+    k2 = k1 ** 2
+    return k2 == k
 
 def isPower5(k):
-    pass
+    # 1 5 25 125 625
+    # k = 125
+    # k = 127
+    p = 1
+    while p < k:
+        p *= 5
+
+    return k == p
 
 def isPrime(k):
     for i in range(2, int(k ** 0.5) + 1):
