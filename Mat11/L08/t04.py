@@ -35,3 +35,22 @@ def isSym(s):
         return s[0] == s[-1] and isSym(s[1:-1])
 
 print(isSym("asdffdsa"))
+
+
+def invert(s):
+    if s == '':
+        return s
+    else:
+        return invert(s[1:]) + s[0]
+
+s = input()
+print(invert(s))
+
+# invert("ads") = invert("ds") + "a" = "sd" + "a" = "sda"
+#                     ||
+#                     invert("s") + "d" = "s" + "d" = "sd"
+#                     ||
+#                     invert("") + "s" = "" + "s" = "s"
+#                     ||
+#                     ""
+#
