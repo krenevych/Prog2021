@@ -8,8 +8,10 @@ for a in array:
     else:
         freq[a] = 1
 
-for key in freq:
-    if freq[key] > n // 2:
+# for key in freq:
+#     if freq[key] > n // 2:
+for key, val in freq.items():
+    if val > n // 2:
         print(key)
         break
 else:
