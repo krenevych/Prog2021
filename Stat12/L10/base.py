@@ -22,3 +22,8 @@ def writeMatrix(M, elementsType=int):
             print(str_elem % el, end= "")
         print()
 
+def printMatrix(M, elementView="%4d"):
+    for row in M:
+        for el in row:
+            print(elementView % el, end= "")
+        print()
