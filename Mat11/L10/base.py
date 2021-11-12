@@ -6,8 +6,8 @@ def readMatrix(n):
         # print("row %d" % i, row)
     return M
 
-def printMatrix(M):
+def printMatrix(M, format="%4d"):
     for row in M:
         for el in row:
-            print("%4d" % el, end="")
+            print(format % el, end="")
         print()
