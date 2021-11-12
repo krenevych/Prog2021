@@ -1,7 +1,7 @@
-def readMatrix(n):
+def readMatrix(n, typeElements=int):
     M = []
     for i in range(n):
-        row = [int(el) for el in input().split()]
+        row = [typeElements(el) for el in input().split()]
         M.append(row)
         # print("row %d" % i, row)
     return M
