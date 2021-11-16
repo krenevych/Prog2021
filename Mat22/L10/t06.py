@@ -14,14 +14,31 @@ def readMatrix():
     return A
 
 def multMatrix(A, B):
-
     m = len(A)
-    n = len(B[0])
-    for i in range()
+    n = len(B)
+    q = len(B[0])
+    C = []
+    for i in range(m):
+        row = [0] * q
+        C.append(row)
 
+    for i in range(m):
+        for j in range(q):
+            for k in range(n):
+                C[i][j] += A[i][k] * B[k][j]
+
+    return C
+
+# writeMatrix(A)
+# print("============")
+# writeMatrix(B)
+# print("============")
 
 A = readMatrix()
 B = readMatrix()
-
-writeMatrix(A)
-writeMatrix(B)
+if len(A[0]) != len(B):
+    print(-1)
+else:
+    C = multMatrix(A, B)
+    print(len(C), len(C[0]))
+    writeMatrix(C)
