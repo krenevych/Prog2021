@@ -24,7 +24,7 @@ def multMatrix(a, b):
         c.append(row)
 
     # множення
-    n = len(B)  # n = len(A[0])
+    n = len(b)  # n = len(a[0])
     for i in range(row_count_c):
         for j in range(col_count_c):
             for r in range(n):
