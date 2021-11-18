@@ -6,6 +6,12 @@ def readMatrix(n, elementsType=int):
 
     return M
 
+def printMatrix(M, elementView="%4d", endElem=""):
+    for row in M:
+        for el in row:
+            print(elementView % el, end=endElem)
+        print()
+
 def writeMatrix(M, elementsType=int):
     # n = len(M)  # кількість рядків матриці
     # m = len(M[0]) # кількість стовпчиків матриці
@@ -22,8 +28,4 @@ def writeMatrix(M, elementsType=int):
             print(str_elem % el, end= "")
         print()
 
-def printMatrix(M, elementView="%4d"):
-    for row in M:
-        for el in row:
-            print(elementView % el, end= "")
-        print()
+
