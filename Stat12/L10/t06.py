@@ -36,7 +36,7 @@ def multMatrix(a, b):
 m_A, n_A = [int(el) for el in input().split()]
 A = readMatrix(m_A)
 
-n_B, q_B =  [int(el) for el in input().split()]
+n_B, q_B = [int(el) for el in input().split()]
 B = readMatrix(n_B)
 
 
