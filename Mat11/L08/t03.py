@@ -23,8 +23,9 @@ def C(n, k):
 # c = C(5, 2)
 # print(c)
 
-N = int(input())
-for n in range(N+1):
-    for k in range(n+1):
-        print(C(n, k), end=" ")
-    print()
+if __name__ == "__main__":
+    N = int(input())
+    for n in range(N+1):
+        for k in range(n+1):
+            print(C(n, k), end=" ")
+        print()
