@@ -1,1 +1,3 @@
-assert 5 == 4
+import glob, os
+for file in glob.glob("*.py"):
+    print(file)
