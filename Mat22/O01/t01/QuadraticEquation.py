@@ -42,6 +42,11 @@ class QuadraticEquation:
                 x2 = (- self.b + d2) / (2.0 * self.a)
                 return x1, x2
 
+    def solutions_number(self) -> int :
+        solutions = self.solve()
+        if solutions == "inf":
+            return -1 # у випадку нескінченної кількості розв'язків
+        return len(solutions)
 
 if __name__ == "__main__":
     # eq = QuadraticEquation(-4, 0, 10)
