@@ -38,6 +38,12 @@ class QuadraticEquation:
                 x2 = (-self.b + d2) / (2.0 * self.a)
                 return x1, x2
 
+    def solutions_number(self):
+        solutions = self.solutions()
+        if solutions == "INF":
+            return -1 # якщо рівняння має нескінченну кількість розв'язків
+        else:
+            return len(solutions)
 
 if __name__ == "__main__":
     # eq1 = QuadraticEquation(1, 2, 1)
