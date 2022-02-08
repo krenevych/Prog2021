@@ -1,8 +1,14 @@
 class QuadraticEquation:
-    def __init__(self, a, b, c):
-        self.a = a
-        self.b = b
-        self.c = c
+    def __init__(self, a, b=None, c=None):
+        if isinstance(a, QuadraticEquation):
+            self.a = a.a
+            self.b = a.b
+            self.c = a.c
+        else:
+            self.a = a
+            self.b = b
+            self.c = c
+
         # self.d = self.b ** 2 - 4 * self.a * self.b !!!! DO NOT DO THIS!!!
 
     def show(self):
@@ -38,22 +44,28 @@ class QuadraticEquation:
 
 
 if __name__ == "__main__":
-    eq = QuadraticEquation(-4, 0, 10)
-    eq.show()
-    print(eq.solve())
-
-    eq2 = QuadraticEquation(1, -3, 2)
-    eq2.show()
-    print(eq2.solve())
-
-    eq3 = QuadraticEquation(1, 2, 1)
-    eq3.show()
-    print(eq3.solve())
+    # eq = QuadraticEquation(-4, 0, 10)
+    # eq.show()
+    # print(eq.solve())
+    #
+    # eq2 = QuadraticEquation(1, -3, 2)
+    # eq2.show()
+    # print(eq2.solve())
+    #
+    # eq3 = QuadraticEquation(1, 2, 1)
+    # eq3.show()
+    # print(eq3.solve())
 
     eq4 = QuadraticEquation(1, 2, 4)
+    # print(eq4.solve())
+    eq4_copy = QuadraticEquation(eq4)
+    eq4.c = 1
     eq4.show()
-    print(eq4.solve())
+    eq4_copy.show()
 
-    eq5 = QuadraticEquation(0, 0, 0)
-    eq5.show()
-    print(eq5.solve())
+    print(eq4.solve())
+    print(eq4_copy.solve())
+
+    # eq5 = QuadraticEquation(0, 0, 0)
+    # eq5.show()
+    # print(eq5.solve())
