@@ -1,7 +1,7 @@
 from QuadraticEquation import QuadraticEquation
 
 equations = []
-with open("input01.txt") as f:
+with open("input03.txt") as f:
     for line in f:
         try:
             a, b, c = map(float, line.split())
