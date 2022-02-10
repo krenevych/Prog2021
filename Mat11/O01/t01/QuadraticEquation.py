@@ -1,9 +1,14 @@
 class QuadraticEquation:
 
-    def __init__(self, a, b, c):
-        self.a = a
-        self.b = b
-        self.c = c
+    def __init__(self, a, b=None, c=None):
+        if isinstance(a, QuadraticEquation): # гілка для підтримки конструктора копіювання
+            self.a = a.a
+            self.b = a.b
+            self.c = a.c
+        else:
+            self.a = a
+            self.b = b
+            self.c = c
 
     def show(self):
         print(f"{self.a}x^2 + {self.b}x + {self.c} = 0")
@@ -34,6 +39,13 @@ class QuadraticEquation:
                 x2 = (-self.b + d2) / (2.0 * self.a)
                 return x1, x2
 
+    def solution_number(self):
+        solutions = self.solutions()
+        if solutions == "INF":
+            return -1
+        else:
+            return len(solutions)
+
 
 if __name__ == "__main__":
     # a1 = int(input("a="))
@@ -55,14 +67,24 @@ if __name__ == "__main__":
     # eq2.show()
     # print(eq2.solutions())
 
-    eq0 = QuadraticEquation(0, 0, 14)
-    eq0.show()
-    print(eq0.solutions())
+    # а == 0
+    # eq0 = QuadraticEquation(0, 0, 14)
+    # eq0.show()
+    # print(eq0.solutions())
+    #
+    # eq1 = QuadraticEquation(0, 1, 14)
+    # eq1.show()
+    # print(eq1.solutions())
+    #
+    # eq_inf = QuadraticEquation(0, 0, 0)
+    # eq_inf.show()
+    # print(eq_inf.solutions())
 
-    eq1 = QuadraticEquation(0, 1, 14)
-    eq1.show()
-    print(eq1.solutions())
+    # конструктор копіювання !!!
+    eq = QuadraticEquation(1, 1, 1)
+    eq.show()
+    print(eq.solutions())
 
-    eq_inf = QuadraticEquation(0, 0, 0)
-    eq_inf.show()
-    print(eq_inf.solutions())
+    eq_copy = QuadraticEquation(eq)
+    eq_copy.show()
+    print(eq_copy.solutions())
