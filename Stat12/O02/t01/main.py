@@ -1,5 +1,6 @@
 from Triangle import Triangle
 from random import randint
+from turtle import *
 
 colors = [
     "red",
@@ -25,5 +26,9 @@ for i in range(100):
     t.setColor(colors[num_color])
     triangles.append(t)
 
+speed(0)
 for t in triangles:
     t.draw()
+
+mainloop()
+
