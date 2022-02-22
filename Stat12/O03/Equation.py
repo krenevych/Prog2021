@@ -1,0 +1,36 @@
+class Equation:
+
+    INF = "inf"
+
+    def __init__(self, b, c):
+        self._b = b
+        self._c = c
+
+    def __str__(self):
+        sign_c = "+" if self._c > 0 else "-"
+        res = f"{self._b}x {sign_c} {abs(self._c)} = 0"
+        return res
+
+    def solve(self):
+        if self._b == 0: # c = 0
+            if self._c == 0: # 0 = 0
+                return Equation.INF # нескіченна кількість розв'язків
+            else: # c != 0, 3 = 0
+                return () # порожній кортеж, бо розв'язків немає
+        else: # b != 0, bx + c = 0
+            x = -self._c / self._b
+            return x, # кортеж з одного елементу, що є розв'язком лінійного рівнння
+
+
+if __name__ == '__main__':
+    eq = Equation(3, -2)
+    print(eq)
+    print(eq.solve())
+
+    eq = Equation(0, 2)
+    print(eq)
+    print(eq.solve())
+
+    eq = Equation(0, 0)
+    print(eq)
+    print(eq.solve())
