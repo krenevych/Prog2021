@@ -11,7 +11,7 @@ class QuadraticEquation(Equation):
         res += super().__str__()
         return res
 
-    def discrimionant(self):
+    def discriminant(self):
         d = self._b ** 2 - 4 * self._a * self._c
         return d
 
@@ -19,7 +19,7 @@ class QuadraticEquation(Equation):
         if self._a == 0:  # bx + c = 0
             return super().solve()
         else:  # ax^2 + bx + c = 0
-            d = self.discrimionant()
+            d = self.discriminant()
             if d < 0:
                 return ()
             elif d == 0:

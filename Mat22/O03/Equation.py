@@ -1,5 +1,7 @@
 class Equation:
 
+    INF = "inf"
+
     def __init__(self, b, c):
         self._b = b
         self._c = c
@@ -12,7 +14,7 @@ class Equation:
     def solve(self):
         if self._b == 0:  # c = 0
             if self._c == 0:  # 0 = 0
-                return "inf"
+                return Equation.INF
             else:
                 return ()
         else:  # bx + c = 0
