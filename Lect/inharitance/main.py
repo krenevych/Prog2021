@@ -28,6 +28,8 @@ class Parrot(Pet):
     def voice(self):
         print(self.name, "хороший!")
 
+class HuntingDog(Dog):
+    pass
 
 if __name__ == "__main__":
     parrot = Parrot("Флінт", 2)
