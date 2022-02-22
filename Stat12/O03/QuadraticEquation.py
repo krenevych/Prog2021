@@ -44,3 +44,15 @@ if __name__ == '__main__':
     eq2 = QuadraticEquation(1, -3, 22)
     print(eq2)
     print(eq2.solve())
+
+    eq2 = QuadraticEquation(0, -2, 22)
+    print(eq2)
+    print(eq2.solve())
+
+    eq2 = QuadraticEquation(0, 0, 22)
+    print(eq2)
+    print(eq2.solve())
+
+    eq2 = QuadraticEquation(0, 0, 0)
+    print(eq2)
+    print(eq2.solve())
