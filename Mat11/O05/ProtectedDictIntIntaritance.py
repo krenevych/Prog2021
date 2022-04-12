@@ -9,15 +9,9 @@ class ProtectedDictInt(dict):
 if __name__ == '__main__':
     d = ProtectedDictInt()
     d[23] = 34
-    # d[23] = 222
-    d["hello"] = "hello"
-    print(d[23])
+    d[22] = 22
+    d[15] = 1111
     print(d)
-    print(len(d))
 
-    # d1 = {}
-    # d1[23] = 34
-    # d1[34] = "Hello!"
-    # d1[23] = 222  # !!!Error
-    # # d1["hello"] = "Hello" #!!!Error
-    # print(d1)
+    print(23 in d)
+    print(len(d))

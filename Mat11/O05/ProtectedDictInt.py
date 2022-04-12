@@ -15,17 +15,23 @@ class ProtectedDictInt:
     def __str__(self):
         return str(self._dict)
 
+    def __contains__(self, item):
+        return item in self._dict
+
+    def __len__(self):
+        # even_count = 0
+        # for el in self._dict:
+        #     if el % 2 == 0:
+        #         even_count += 1
+        # return even_count
+        return len(self._dict)
+
 if __name__ == '__main__':
     d = ProtectedDictInt()
     d[23] = 34
-    # d[23] = 222
-    # d["hello"] = "hello"
-    print(d[23])
-    # print(d)
+    d[22] = 22
+    d[15] = 1111
+    print(d)
 
-    # d1 = {}
-    # d1[23] = 34
-    # d1[34] = "Hello!"
-    # d1[23] = 222  # !!!Error
-    # # d1["hello"] = "Hello" #!!!Error
-    # print(d1)
+    print(23 in d)
+    print(len(d))
