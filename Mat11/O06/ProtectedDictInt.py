@@ -53,6 +53,28 @@ class ProtectedDictInt:
                 res[key] = val
         return res
 
+    def __iter__(self):
+        return ProtectedDictIntIncreasingIterator(self)
+        # return iter(self._dict)
+
+
+class ProtectedDictIntIncreasingIterator:
+    def __init__(self, collection):
+        # self.collection = collection
+        self.keys = list(collection._dict.keys())
+        self.keys.sort()
+        self.marker = 0
+
+
+    def __next__(self):
+        # if self.marker >= len(self.keys):
+        #     raise StopIteration
+        try:
+            res = self.keys[self.marker]
+            self.marker += 1
+            return res
+        except IndexError:
+            raise StopIteration
 
 
 if __name__ == '__main__':
@@ -60,22 +82,17 @@ if __name__ == '__main__':
     d[23] = 34
     d[22] = 22
     d[15] = 1111
-    # print(d)
-    # print(23 in d)
-    # print(len(d))
+    d[17] = 12311
 
-    # d2 = ProtectedDictInt()
-    # d2[55] = 45
-    # d2[65] = 65
-    # # d2[15] = 222
-    # d3 = d + d2
-    # print(d3)
-
-    d1 = d + (55, 199)
-    # d1 = d + ("23", 199)
-    print(d1)
-
-    d3 = d1 - 55
-    # d3 = d - '55'
-    print(d3)
+    for key in d:
+        print(key)
+    # my_iterator = iter(d)
+    # key = next(my_iterator)
+    # print(key)
+    # key = next(my_iterator)
+    # print(key)
+    # key = next(my_iterator)
+    # print(key)
+    # key = next(my_iterator)
+    # print(key)
 
