@@ -54,17 +54,15 @@ class ProtectedDictInt:
         return res
 
     def __iter__(self):
-        return ProtectedDictIntIncreasingIterator(self)
+        return ProtectedDictIntIncreasingIterator(self._dict.keys())
         # return iter(self._dict)
 
 
 class ProtectedDictIntIncreasingIterator:
     def __init__(self, collection):
-        # self.collection = collection
-        self.keys = list(collection._dict.keys())
+        self.keys = list(collection)
         self.keys.sort()
         self.marker = 0
-
 
     def __next__(self):
         # if self.marker >= len(self.keys):
