@@ -10,7 +10,7 @@ class ErrorKeyExist(ProtectedDictIntError):
         self.value = value
 
     def __str__(self):
-        return "Dictionary contains key: " + self.message
+        return "Dictionary contains key: " + str(self.key)
 
 
 
